@@ -2,6 +2,7 @@ import { Project } from "@/types";
 
 export async function getPinnedProjects(): Promise<Project[]> {
   if (!process.env.GITHUB_TOKEN) {
+    console.warn("GITHUB_TOKEN not set");
     return [];
   }
 
@@ -31,16 +32,31 @@ export async function getPinnedProjects(): Promise<Project[]> {
     }
   `;
 
-  const res = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: {
-      Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ query }),
-    next: { revalidate: 3600 },
-  });
+  try {
+    const res = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: {
+        Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query }),
+      next: { revalidate: 3600 },
+    });
 
-  const json = await res.json();
-  return json.data.user.pinnedItems.nodes;
+    if (!res.ok) {
+      console.error("GitHub API error:", res.status);
+      return [];
+    }
+
+    const json = await res.json();
+    if (json.errors) {
+      console.error("GitHub GraphQL errors:", json.errors);
+      return [];
+    }
+
+    return json.data?.user?.pinnedItems?.nodes ?? [];
+  } catch (error) {
+    console.error("Failed to fetch GitHub projects:", error);
+    return [];
+  }
 }
