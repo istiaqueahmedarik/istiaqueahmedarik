@@ -5,7 +5,7 @@ export default function Navbar() {
         <a href="/" className="text-black font-bold tracking-tight">
           © Istiaque Ahmed Arik
         </a>
-        <div className="hidden md:flex gap-8">
+        <div className="flex gap-8">
           <a href="#about" className="text-black/70 hover:text-black transition-colors">About</a>
           <a href="#projects" className="text-black/70 hover:text-black transition-colors">Projects</a>
           <a href="#contact" className="text-black/70 hover:text-black transition-colors">Contact</a>
