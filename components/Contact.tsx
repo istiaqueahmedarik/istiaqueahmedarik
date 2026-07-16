@@ -13,7 +13,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-32 px-6 max-w-4xl mx-auto border-t border-black/10">
+    <section id="contact" className="py-32 px-6 max-w-4xl mx-auto border-t border-black/10 scroll-mt-16">
       <h2 className="text-4xl md:text-6xl font-bold mb-12 uppercase tracking-tight">Contact</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         <form ref={formRef} action={handleSubmit} className="space-y-6">

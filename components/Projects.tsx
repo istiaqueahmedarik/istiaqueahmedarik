@@ -4,7 +4,7 @@ export default async function Projects() {
   const projects = await getPinnedProjects();
 
   return (
-    <section id="projects" className="py-32 px-6 bg-black text-white">
+    <section id="projects" className="py-32 px-6 bg-black text-white scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-6xl font-bold mb-16 uppercase tracking-tight">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
