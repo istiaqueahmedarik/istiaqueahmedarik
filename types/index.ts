@@ -3,7 +3,7 @@ export interface Project {
   description: string;
   url: string;
   homepageUrl: string | null;
-  repositoryTopics: { nodes: { name: string }[] };
+  repositoryTopics: { nodes: { topic: { name: string } }[] };
   primaryLanguage: {
     name: string;
     color: string;

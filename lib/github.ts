@@ -18,7 +18,9 @@ export async function getPinnedProjects(): Promise<Project[]> {
               homepageUrl
               repositoryTopics(first: 3) {
                 nodes {
-                  name
+                  topic {
+                    name
+                  }
                 }
               }
               primaryLanguage {
@@ -50,7 +52,7 @@ export async function getPinnedProjects(): Promise<Project[]> {
 
     const json = await res.json();
     if (json.errors) {
-      console.error("GitHub GraphQL errors:", json.errors);
+      console.error("GitHub GraphQL errors:", JSON.stringify(json.errors, null, 2));
       return [];
     }
 
