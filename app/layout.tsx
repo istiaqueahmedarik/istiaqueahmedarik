@@ -5,7 +5,7 @@ import { getProfile } from "@/lib/profile";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const SITE_URL = "https://istiaqueahmedarik.vercel.app";
+const SITE_URL = "https://www.istiaqueahmed.tech";
 const { basics, skills } = getProfile();
 const description =
   "Portfolio of Istiaque Ahmed Arik, a Software Engineer at Enosis Solutions and multi-time ICPC Regionalist. Full-stack development, competitive programming, and reliable systems.";
