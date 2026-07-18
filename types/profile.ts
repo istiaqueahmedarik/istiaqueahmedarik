@@ -1,28 +1,3 @@
-export interface Project {
-  name: string;
-  description: string;
-  url: string;
-  homepageUrl: string | null;
-  repositoryTopics: { nodes: { topic: { name: string } }[] };
-  primaryLanguage: {
-    name: string;
-    color: string;
-  } | null;
-}
-
-export interface CodeforcesStats {
-  handle: string;
-  profileUrl: string;
-  rank: string | null;
-  maxRank: string | null;
-  rating: number | null;
-  maxRating: number | null;
-  organization: string | null;
-  solvedCount: number;
-  contestCount: number;
-  hardestSolved: number | null;
-}
-
 export interface ProfileBasics {
   name: string;
   headline: string;

@@ -1,0 +1,721 @@
+{
+    "basics":  {
+                   "name":  "Istiaque Ahmed",
+                   "headline":  "Software Engineer at Enosis Solutions | ICPC 23, 24, 25 Regionalist | Expert at Codeforces | 2nd in ARC 24 Final | 14th and 11th in URC 25,26 Final",
+                   "currentRole":  "Software Engineer at Enosis Solutions",
+                   "location":  "Dhaka, Bangladesh",
+                   "photo":  "/photo.png",
+                   "about":  "I am a hard worker who is always willing to go the extra mile. I am passionate about my work and I am always looking for ways to improve my skills and knowledge. I am also a team player and I am always willing to help others.",
+                   "topSkills":  [
+                                     "Problem Solving",
+                                     "C++",
+                                     "Web Development",
+                                     "Python",
+                                     "Algorithms"
+                                 ]
+               },
+    "featured":  [
+                     {
+                         "type":  "post",
+                         "title":  "ICPC Dhaka Regional 2024 - 53rd place",
+                         "description":  "Team MIST_ShopnoFeri (Munjib Hasan, Mohammad Sadiqul Alam and Istiaque Ahmed) achieved 53rd place in the ICPC Dhaka Regional 2024 - DIU. Trainer: Tariq Hasan Rizu. Coach: Lec Md Rashid Ul Islam.",
+                         "reactions":  47,
+                         "hashtags":  [
+                                          "#ICPC",
+                                          "#DhakaRegional",
+                                          "#DIU",
+                                          "#MIST_ShopnoFeri"
+                                      ]
+                     },
+                     {
+                         "type":  "post",
+                         "title":  "BloodBridge - SDP-1 Project",
+                         "description":  "A blood donation app built with Sajedullah Aref, Rasiul Hasan, Ibrahim Reza, Ariful Khan. Beyond traditional CRUD features it includes: OCR with Gemini, Semantic search, MCP server with Gemini, Cloudflare worker AI.",
+                         "reactions":  28,
+                         "links":  {
+                                       "demo":  "https://lnkd.in/gdaDyBEf",
+                                       "source":  "https://lnkd.in/gjeWPHBg"
+                                   }
+                     },
+                     {
+                         "type":  "post",
+                         "title":  "Codebook",
+                         "description":  "A Java platform for sharing code where aspiring programmers can share their code and learn from others. Built with Raisul Islam Rahad.",
+                         "reactions":  19,
+                         "comments":  2,
+                         "links":  {
+                                       "source":  "https://lnkd.in/gEcmu3gm"
+                                   }
+                     },
+                     {
+                         "type":  "link",
+                         "title":  "Virtual Science Community",
+                         "url":  "https://vs-community.vercel.app/",
+                         "description":  "This is a small organization and blog website"
+                     },
+                     {
+                         "type":  "link",
+                         "title":  "Peer-Village",
+                         "url":  "https://peer-village.vercel.app/",
+                         "description":  "A small social media made with nextJS and firebase"
+                     }
+                 ],
+    "experience":  [
+                       {
+                           "company":  "Enosis Solutions",
+                           "title":  "Software Engineer",
+                           "employmentType":  "Full-time",
+                           "startDate":  "Jun 2026",
+                           "endDate":  "Present",
+                           "duration":  "2 mos"
+                       },
+                       {
+                           "company":  "MIST Computer Club",
+                           "totalDuration":  "2 yrs 5 mos",
+                           "roles":  [
+                                         {
+                                             "title":  "Secretary",
+                                             "startDate":  "Jun 2025",
+                                             "endDate":  "Jun 2026",
+                                             "duration":  "1 yr 1 mo"
+                                         },
+                                         {
+                                             "title":  "Assistant Treasurer",
+                                             "startDate":  "Feb 2024",
+                                             "endDate":  "Jun 2025",
+                                             "duration":  "1 yr 5 mos",
+                                             "skills":  [
+                                                            "Engineering",
+                                                            "Management"
+                                                        ]
+                                         }
+                                     ]
+                       },
+                       {
+                           "company":  "MIST Mongol Barota",
+                           "title":  "Software Team Lead",
+                           "startDate":  "Feb 2024",
+                           "endDate":  "Jun 2026",
+                           "duration":  "2 yrs 5 mos",
+                           "skills":  [
+                                          "C++",
+                                          "Web Development"
+                                      ]
+                       }
+                   ],
+    "education":  [
+                      {
+                          "institution":  "Military Institute of Science and Technology (MIST)",
+                          "degree":  "Bachelor of Science - BS, Computer Science",
+                          "startDate":  "Apr 2022",
+                          "endDate":  "Jun 2026",
+                          "skills":  [
+                                         "Algorithms",
+                                         "Python"
+                                     ]
+                      },
+                      {
+                          "institution":  "Adamjee Cantonment College, Dhaka",
+                          "degree":  "Higher Secondary School Certificate, Science",
+                          "startDate":  "2019",
+                          "endDate":  "2021",
+                          "grade":  "5.00",
+                          "skills":  [
+                                         "Algorithms",
+                                         "C++"
+                                     ]
+                      },
+                      {
+                          "institution":  "BAF Shaheen College, Jessore",
+                          "degree":  "SSC",
+                          "startDate":  "Jan 2014",
+                          "endDate":  "Dec 2019",
+                          "grade":  "5.00"
+                      }
+                  ],
+    "projects":  [
+                     {
+                         "name":  "Food Daily",
+                         "startDate":  "Jun 2024",
+                         "endDate":  "Present",
+                         "associatedWith":  "Military Institute of Science and Technology (MIST)",
+                         "description":  "Food Delivery App for Home Chef",
+                         "skills":  [
+                                        "Web Development",
+                                        "Bun.JS",
+                                        "HonoJS",
+                                        "Oracle SQL Developer",
+                                        "PL/SQL",
+                                        "Next.js"
+                                    ],
+                         "source":  "https://github.com/istiaqueahmedarik/Food_daily"
+                     },
+                     {
+                         "name":  "BloodBridge",
+                         "startDate":  "Jan 2025",
+                         "endDate":  "Mar 2025",
+                         "associatedWith":  "Military Institute of Science and Technology (MIST)",
+                         "description":  "A blood donation app powered by Gemini, our SDP project",
+                         "skills":  [
+                                        "Web Development",
+                                        "Large Language Models (LLM)",
+                                        "MCP",
+                                        "Cloudflare worker"
+                                    ]
+                     },
+                     {
+                         "name":  "Codebook",
+                         "startDate":  "Nov 2023",
+                         "endDate":  "Dec 2023",
+                         "description":  "A platform for sharing code where aspiring programmers can share their code and learn from others.",
+                         "features":  [
+                                          "Share code",
+                                          "Automatically verify code",
+                                          "Provide explanations and time complexity of code using PALM 2 AI",
+                                          "Add code to favorites and download as PDF",
+                                          "Chat with other users in real-time",
+                                          "Add friends and follow other users",
+                                          "View a contribution rank list",
+                                          "Use a Chatbot powered by PALM 2 AI to help with doubts",
+                                          "Search for code using natural language",
+                                          "Create a personal profile"
+                                      ],
+                         "technology":  {
+                                            "language":  "Java",
+                                            "framework":  "JavaFX",
+                                            "database":  [
+                                                             "Firebase Firestore",
+                                                             "Supabase PgVector"
+                                                         ],
+                                            "authentication":  "Firebase Authentication",
+                                            "others":  [
+                                                           "Judge0 online compiler",
+                                                           "PALM2 AI powered by Google"
+                                                       ]
+                                        },
+                         "skills":  [
+                                        "Web Development",
+                                        "supabase",
+                                        "Java",
+                                        "JavaFX",
+                                        "Firebase",
+                                        "Artificial Intelligence (AI)"
+                                    ],
+                         "source":  "https://github.com/istiaqueahmedarik/CBook"
+                     },
+                     {
+                         "name":  "Virtual Science Community",
+                         "startDate":  "Aug 2021",
+                         "endDate":  "Aug 2023",
+                         "description":  "It is a science blog website.",
+                         "skills":  [
+                                        "Web Development",
+                                        "Algorithms"
+                                    ]
+                     },
+                     {
+                         "name":  "Peer-Meet (A simple messaging app)",
+                         "startDate":  "Apr 2021",
+                         "endDate":  "May 2021",
+                         "description":  "It is a simple messaging app where you can chat with your friends and family.",
+                         "skills":  [
+                                        "Web Development",
+                                        "Algorithms"
+                                    ]
+                     },
+                     {
+                         "name":  "PEER-VILLAGE (A Small Social Media)",
+                         "startDate":  "Feb 2021",
+                         "endDate":  "Mar 2021",
+                         "description":  "This is a simple social media, created with NEXTJS and Firebase.",
+                         "skills":  [
+                                        "Web Development",
+                                        "Algorithms"
+                                    ]
+                     },
+                     {
+                         "name":  "BOOK REVIEW BD",
+                         "startDate":  "Jan 2021",
+                         "endDate":  "Feb 2021",
+                         "description":  "It is a website for reading and submitting book reviews.",
+                         "skills":  [
+                                        "Web Development",
+                                        "Algorithms"
+                                    ]
+                     },
+                     {
+                         "name":  "LIVE COVID-19 TRACKER",
+                         "startDate":  "Dec 2020",
+                         "endDate":  "Dec 2020",
+                         "description":  "Live corona status made with reactjs.",
+                         "skills":  [
+                                        "Web Development",
+                                        "Algorithms"
+                                    ]
+                     }
+                 ],
+    "skills":  [
+                   "Large Language Models (LLM)",
+                   "MCP",
+                   "Cloudflare worker",
+                   "Oracle SQL Developer",
+                   "PL/SQL",
+                   "Bun.JS",
+                   "HonoJS",
+                   "Competitive Programming",
+                   "Management",
+                   "Engineering",
+                   "Software engineering",
+                   "REST APIs",
+                   "Problem Solving",
+                   "Java",
+                   "JavaFX",
+                   "Firebase",
+                   "supabase",
+                   "Artificial Intelligence (AI)",
+                   "Software Development",
+                   "Robotics",
+                   "Mechanics",
+                   "Web Development",
+                   "C++",
+                   "Machine Learning",
+                   "Algorithms",
+                   "Full-Stack Development",
+                   "Databases",
+                   "Responsive Web Design",
+                   "Data Structures",
+                   "Video Editing",
+                   "Data Visualization",
+                   "Science",
+                   "Physics",
+                   "Organic Chemistry",
+                   "Web Applications",
+                   "Microsoft PowerPoint",
+                   "C (Programming Language)",
+                   "Microsoft Office",
+                   "Adobe Photoshop",
+                   "Python (Programming Language)",
+                   "C programming",
+                   "Cascading Style Sheets (CSS)",
+                   "HTML5",
+                   "JavaScript",
+                   "Bootstrap",
+                   "SQL",
+                   "jQuery",
+                   "React.js",
+                   "PHP",
+                   "Node.js",
+                   "Python",
+                   "Bengali",
+                   "Bangla",
+                   "Web Browsing",
+                   "Programming Languages",
+                   "Bootstrapping",
+                   "Quantum Mechanics",
+                   "HTML",
+                   "Web Content Writing",
+                   "Writing",
+                   "Next.js"
+               ],
+    "certifications":  [
+                           {
+                               "name":  "Understanding the OWASP Top 10 Security Threats SKF100",
+                               "issuer":  "The Linux Foundation",
+                               "issued":  "Jul 2026",
+                               "credentialId":  "LF-t010in9ywn"
+                           },
+                           {
+                               "name":  "Anatolian Rover Challenge 24",
+                               "issuer":  "Anatolian Rover Challenge",
+                               "issued":  "Jul 2024",
+                               "skills":  [
+                                              "Algorithms",
+                                              "C++"
+                                          ]
+                           },
+                           {
+                               "name":  "Software Engineer",
+                               "issuer":  "HackerRank",
+                               "issued":  "Apr 2024",
+                               "credentialId":  "fe61bca7c3dc",
+                               "skills":  [
+                                              "Algorithms",
+                                              "SQL"
+                                          ]
+                           },
+                           {
+                               "name":  "Anatolian Rover Challenge 23",
+                               "issuer":  "Anatolian Rover Challenge",
+                               "issued":  "Aug 2023",
+                               "credentialId":  "24911652577419",
+                               "skills":  [
+                                              "Robotics",
+                                              "Algorithms"
+                                          ]
+                           },
+                           {
+                               "name":  "Problem Solving (Basic)",
+                               "issuer":  "HackerRank",
+                               "issued":  "Feb 2023",
+                               "credentialId":  "829E04869719",
+                               "skills":  [
+                                              "Algorithms",
+                                              "C++"
+                                          ]
+                           },
+                           {
+                               "name":  "Advanced Learning Algorithms",
+                               "issuer":  "Coursera",
+                               "issued":  "Oct 2022",
+                               "credentialId":  "Z4U4UUXR3NUW",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Supervised Machine Learning: Regression and Classification",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2022",
+                               "credentialId":  "64E9T84VE4R3",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Neural Networks and Deep Learning",
+                               "issuer":  "Coursera",
+                               "issued":  "Aug 2022",
+                               "credentialId":  "3KHGDDJYCN8L",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Web Applications for Everybody Specialization",
+                               "issuer":  "Coursera",
+                               "issued":  "Jan 2021",
+                               "credentialId":  "339JC8D2466Y",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Full-Stack Development"
+                                          ]
+                           },
+                           {
+                               "name":  "JavaScript, jQuery, and JSON",
+                               "issuer":  "Coursera",
+                               "issued":  "Jan 2021",
+                               "credentialId":  "VQDVSHLQ4ZYU",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Building Database Applications in PHP",
+                               "issuer":  "Coursera",
+                               "issued":  "Jan 2021",
+                               "credentialId":  "GF8GUUGTPP8Q",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Introduction to Structured Query Language (SQL)",
+                               "issuer":  "Coursera",
+                               "issued":  "Dec 2020",
+                               "credentialId":  "ZV7EG2ZNQFUG",
+                               "skills":  [
+                                              "Databases",
+                                              "Full-Stack Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Building Web Applications in PHP",
+                               "issuer":  "Coursera",
+                               "issued":  "Nov 2020",
+                               "credentialId":  "EAZ6KTLLBYMJ",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Full-Stack Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Web Design for Everybody Capstone",
+                               "issuer":  "Coursera",
+                               "issued":  "Oct 2020",
+                               "credentialId":  "66L4W5HHDRV2",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Full-Stack Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Web Design for Everybody: Basics of Web Development \u0026 Coding Specialization",
+                               "issuer":  "Coursera",
+                               "issued":  "Oct 2020",
+                               "credentialId":  "EHWH5FUPZJMA",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Premiere Pro CC for Beginners: Video Editing in Premiere",
+                               "issuer":  "Udemy",
+                               "issued":  "Oct 2020",
+                               "credentialId":  "UC-132b9173-9e8d-4c25-a342-097356cc6c4c"
+                           },
+                           {
+                               "name":  "Learn Python 3 Course",
+                               "issuer":  "Codecademy",
+                               "issued":  "Jun 2020",
+                               "credentialId":  "6c152bd262967f8c941c9707ed636bda"
+                           },
+                           {
+                               "name":  "Advanced Styling with Responsive Design",
+                               "issuer":  "Coursera",
+                               "issued":  "Oct 2020",
+                               "credentialId":  "V8HZ7WYLSTVM",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Interactivity with JavaScript",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "TN5KF4AYPGRR",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Introduction to CSS3",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "P77S99ZJCQ52",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Introduction to HTML5",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "8W8L5TGSYVQD",
+                               "skills":  [
+                                              "Full-Stack Development",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Python 3 Programming Specialization",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "SRR7Y74E5AKF",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Python Project: pillow, tesseract, and opencv",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "5PWKQNAXMP3N",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Python Classes and Inheritance",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "A9YCY4E8S35F",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Data Collection and Processing with Python",
+                               "issuer":  "Coursera",
+                               "issued":  "Sep 2020",
+                               "credentialId":  "X7J2XS7P5RYP",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Full-Stack Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Python Functions, Files, and Dictionaries",
+                               "issuer":  "Coursera",
+                               "issued":  "Aug 2020",
+                               "credentialId":  "B6ZGPYFJFGK5",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Python Basics",
+                               "issuer":  "Coursera",
+                               "issued":  "Aug 2020",
+                               "credentialId":  "EHZ92V2YN373",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Introduction to Cybersecurity Tools \u0026 Cyber Attacks",
+                               "issuer":  "Coursera",
+                               "issued":  "Aug 2020",
+                               "credentialId":  "GK87U4BZSF62"
+                           },
+                           {
+                               "name":  "Writing, Running, and Fixing Code in C",
+                               "issuer":  "Coursera",
+                               "issued":  "Jul 2020",
+                               "credentialId":  "N6G3GZR7TTQ5",
+                               "skills":  [
+                                              "C++"
+                                          ]
+                           },
+                           {
+                               "name":  "Programming Fundamentals",
+                               "issuer":  "Coursera",
+                               "issued":  "Jul 2020",
+                               "credentialId":  "D59T9MYVK8QS",
+                               "skills":  [
+                                              "Algorithms"
+                                          ]
+                           },
+                           {
+                               "name":  "Python for Everybody Specialization",
+                               "issuer":  "Coursera",
+                               "issued":  "Jul 2020",
+                               "credentialId":  "3FDL4C4E5J2Q",
+                               "skills":  [
+                                              "Algorithms",
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Using Databases with Python",
+                               "issuer":  "Coursera",
+                               "issued":  "Jul 2020",
+                               "credentialId":  "CYFEE49397HX",
+                               "skills":  [
+                                              "Databases",
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Capstone: Retrieving, Processing, and Visualizing Data with Python",
+                               "issuer":  "Coursera",
+                               "issued":  "Jul 2020",
+                               "credentialId":  "T8Y4MZS5FDGD",
+                               "skills":  [
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Using Python to Access Web Data",
+                               "issuer":  "Coursera",
+                               "issued":  "Jun 2020",
+                               "credentialId":  "NYBQZVXKZCJA",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Python Data Structure",
+                               "issuer":  "Coursera",
+                               "credentialId":  "VT5QE8E4ZL83",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Python (Basic)",
+                               "issuer":  "HackerRank Campus Club, AUFS",
+                               "issued":  "Jun 2020",
+                               "credentialId":  "E580848413F5",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Create Your First Python Program",
+                               "issuer":  "Coursera",
+                               "issued":  "May 2020",
+                               "credentialId":  "XXYDAEVH25XQ",
+                               "skills":  [
+                                              "Python"
+                                          ]
+                           },
+                           {
+                               "name":  "Programming for Everybody (Getting Started with Python)",
+                               "issuer":  "Coursera",
+                               "issued":  "May 2020",
+                               "credentialId":  "5UVTDM8F2ST8"
+                           },
+                           {
+                               "name":  "Introduction to Chemistry: Structures and Solutions",
+                               "issuer":  "Coursera",
+                               "issued":  "May 2020",
+                               "credentialId":  "HHJ6YZ77ZFTQ"
+                           },
+                           {
+                               "name":  "How Things Work: An Introduction to Physics",
+                               "issuer":  "Coursera",
+                               "issued":  "May 2020",
+                               "credentialId":  "5MAXECLSA433"
+                           },
+                           {
+                               "name":  "COVID-19: What You Need to Know (CME Eligible)",
+                               "issuer":  "Coursera",
+                               "issued":  "May 2020",
+                               "credentialId":  "N7BFYXBSWMUD",
+                               "skills":  [
+                                              "Web Development"
+                                          ]
+                           },
+                           {
+                               "name":  "Adobe Photoshop CC: Your Complete Beginner to Advanced Class",
+                               "issuer":  "Udemy",
+                               "issued":  "Apr 2020",
+                               "credentialId":  "UC-3700528e-3645-4729-8d00-09c6182082e9"
+                           },
+                           {
+                               "name":  "Learn Microsoft Powerpoint",
+                               "issuer":  "Udemy",
+                               "issued":  "Apr 2020",
+                               "credentialId":  "UC-4b5f7d85-28e4-4c5a-aac4-18dddaba0fd1"
+                           },
+                           {
+                               "name":  "Introduction to C Programming",
+                               "issuer":  "Alison",
+                               "issued":  "Apr 2020",
+                               "credentialId":  "504-16110050",
+                               "skills":  [
+                                              "C++"
+                                          ]
+                           }
+                       ],
+    "achievements":  [
+                         "ICPC 2023 Regionalist",
+                         "ICPC 2024 Regionalist (53rd place, Dhaka Regional - MIST_ShopnoFeri)",
+                         "ICPC 2025 Regionalist",
+                         "Expert at Codeforces",
+                         "2nd in ARC 24 Final",
+                         "14th in URC 25 Final",
+                         "11th in URC 26 Final"
+                     ]
+}

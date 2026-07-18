@@ -1,0 +1,37 @@
+*** Begin Patch
+*** Update File: app/layout.tsx
+@@
+ const description =
+   "Portfolio of Istiaque Ahmed Arik, a Software Engineer at Enosis Solutions and multi-time ICPC Regionalist. Full-stack development, competitive programming, and reliable systems.";
++
++const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
++const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
++const yandexVerification = process.env.NEXT_PUBLIC_YANDEX_SITE_VERIFICATION;
+ 
+ export const metadata: Metadata = {
+   metadataBase: new URL(SITE_URL),
+@@
+   robots: {
+     index: true,
+     follow: true,
+     googleBot: {
+       index: true,
+       follow: true,
+       "max-image-preview": "large",
+       "max-snippet": -1,
+       "max-video-preview": -1,
+     },
+   },
++  verification: {
++    ...(googleVerification ? { google: googleVerification } : {}),
++    ...(yandexVerification ? { yandex: yandexVerification } : {}),
++    ...(bingVerification
++      ? { other: { "msvalidate.01": bingVerification } }
++      : {}),
++  },
+   icons: {
+     icon: "/favicon.ico",
+   },
++  manifest: "/manifest.webmanifest",
+ };
+*** End Patch

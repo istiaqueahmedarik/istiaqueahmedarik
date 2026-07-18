@@ -1,21 +1,53 @@
 "use server";
 
-export async function submitContactForm(formData: FormData) {
-  const name = formData.get("name");
-  const email = formData.get("email");
-  const message = formData.get("message");
+const MAX_FIELD_LENGTHS = {
+  name: 100,
+  email: 254,
+  message: 2000,
+};
 
-  if (typeof name !== "string" || name.trim() === "") {
+function getTrimmedField(formData: FormData, key: "name" | "email" | "message") {
+  const value = formData.get(key);
+
+  if (typeof value !== "string") {
+    return "";
+  }
+
+  return value.trim();
+}
+
+export async function submitContactForm(formData: FormData) {
+  const name = getTrimmedField(formData, "name");
+  const email = getTrimmedField(formData, "email");
+  const message = getTrimmedField(formData, "message");
+  const honeypot = formData.get("company");
+
+  if (honeypot) {
+    return { success: true };
+  }
+
+  if (name === "") {
     return { success: false, error: "Name is required." };
   }
-  if (typeof email !== "string" || !email.includes("@")) {
+  if (name.length > MAX_FIELD_LENGTHS.name) {
+    return { success: false, error: "Name is too long." };
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return { success: false, error: "Valid email is required." };
   }
-  if (typeof message !== "string" || message.trim() === "") {
+  if (email.length > MAX_FIELD_LENGTHS.email) {
+    return { success: false, error: "Email is too long." };
+  }
+  if (message === "") {
     return { success: false, error: "Message is required." };
   }
+  if (message.length > MAX_FIELD_LENGTHS.message) {
+    return { success: false, error: "Message is too long." };
+  }
 
-  console.log("Contact Form Submission:", { name, email, message });
-
-  return { success: true };
+  return {
+    success: false,
+    error: "Contact delivery is not configured yet. Please email me directly.",
+  };
 }
+
