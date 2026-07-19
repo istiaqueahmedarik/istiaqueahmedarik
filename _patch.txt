@@ -1,0 +1,24 @@
+﻿*** Begin Patch
+*** Update File: components/Hero.tsx
+@@
+-        <Reveal delay={200} className="relative">
+-          <div className="relative mx-auto h-[420px] w-full max-w-md md:h-[560px]">
++        <div className="relative">
++          <div className="relative mx-auto h-[420px] w-full max-w-md md:h-[560px]">
+             <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl border border-accent" />
+             <div className="relative h-full w-full overflow-hidden rounded-3xl border border-border">
+               <Image
+                 src={basics.photo}
+                 alt={basics.name}
+                 fill
+                 sizes="(max-width: 768px) 100vw, 40vw"
+                 className="object-cover object-center grayscale transition-all duration-500 hover:grayscale-0"
+-                priority
++                preload
++                fetchPriority="high"
+               />
+             </div>
+           </div>
+-        </Reveal>
++        </div>
+*** End Patch

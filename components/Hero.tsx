@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Reveal from "./Reveal";
 import { getProfile } from "@/lib/profile";
 
@@ -78,7 +78,7 @@ export default function Hero() {
           </Reveal>
         </div>
 
-        <Reveal delay={200} className="relative">
+        <div className="relative">
           <div className="relative mx-auto h-[420px] w-full max-w-md md:h-[560px]">
             <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl border border-accent" />
             <div className="relative h-full w-full overflow-hidden rounded-3xl border border-border">
@@ -88,11 +88,12 @@ export default function Hero() {
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
                 className="object-cover object-center grayscale transition-all duration-500 hover:grayscale-0"
-                priority
+                preload
+                fetchPriority="high"
               />
             </div>
           </div>
-        </Reveal>
+        </div>
       </div>
 
       <a href="#about" className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-xs uppercase tracking-widest text-muted md:flex" aria-label="Scroll to about">
