@@ -1,15 +1,18 @@
 import Reveal from "./Reveal";
 import { getProfile } from "@/lib/profile";
 
-const STATS = [
-  { value: "8+", label: "Projects shipped" },
-  { value: "44", label: "Certifications" },
-  { value: "3x", label: "ICPC Regionalist" },
-];
-
 export default function About() {
-  const { basics, experience } = getProfile();
+  const { basics, experience, projects, certifications, achievements } = getProfile();
   const current = experience[0];
+
+  const icpcCount = achievements.filter((item) => /ICPC/i.test(item)).length;
+
+  const STATS = [
+    { value: `${projects.length}`, label: "Projects shipped" },
+    { value: `${certifications.length}`, label: "Certifications" },
+    { value: `${icpcCount}x`, label: "ICPC Regionalist" },
+  ];
+
 
   return (
     <section id="about" className="scroll-mt-16 border-t border-border px-6 py-28">
