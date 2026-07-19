@@ -26,6 +26,16 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.svg
 
+      - name: Disable Vercel deploys on output branch
+        run: |
+          cat > dist/vercel.json <<'JSON'
+          {
+            "git": {
+              "deploymentEnabled": false
+            }
+          }
+          JSON
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
